@@ -23,19 +23,19 @@
 
 /** General Style Info **/
 body {
-	background: #003d4c;
+	background: #800000;
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
 	margin: 0;
 }
 a {
-	color: #003d4c;
+	color:#FFFFCC;
 	text-decoration: underline;
 	font-weight: bold;
 }
 a:hover {
-	color: #367889;
+	color: #333300;
 	text-decoration:none;
 }
 a img {
@@ -57,7 +57,7 @@ h2 {
 	font-size: 190%;
 }
 h3 {
-	color: #2c6877;
+	color: #FFFFCC;
 	font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
 	font-size: 165%;
 }
@@ -82,23 +82,23 @@ p {
 }
 #header h1 {
 	line-height:20px;
-	background: #003d4c url('../img/cake.icon.png') no-repeat left;
-	color: #fff;
+	background: #003d4c url('../img/cake.Logo3.png') no-repeat left;
+	color: #EEEEEE;
 	padding: 0px 30px;
 }
 #header h1 a {
-	color: #fff;
+	color: #EEEEEE;
 	background: #003d4c;
 	font-weight: normal;
 	text-decoration: none;
 }
 #header h1 a:hover {
-	color: #fff;
+	color: #EEEEEE;
 	background: #003d4c;
 	text-decoration: underline;
 }
 #content{
-	background: #fff;
+	background:#CCCCFF;
 	clear: both;
 	color: #333;
 	padding: 10px 20px 40px 20px;
@@ -358,7 +358,7 @@ input[type=submit] {
 	width: auto;
 }
 form .submit input[type=submit] {
-	background:#62af56;
+	background:#66FFFF;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#76BF6B), to(#3B8230));
 	background-image: -webkit-linear-gradient(top, #76BF6B, #3B8230);
 	background-image: -moz-linear-gradient(top, #76BF6B, #3B8230);
@@ -368,7 +368,7 @@ form .submit input[type=submit] {
 	padding: 8px 10px;
 }
 form .submit input[type=submit]:hover {
-	background: #5BA150;
+	background: #66FFFF;
 }
 /* Form errors */
 form .error {
@@ -385,12 +385,12 @@ form .error-message {
 	border: none;
 	background: none;
 	margin: 0;
-	padding-left: 4px;
-	padding-right: 0;
+	padding-left: 0;
+	padding-right: 4px;
 }
 form .error,
 form .error-message {
-	color: #9E2424;
+	color: #FF0000;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	-ms-box-shadow: none;
@@ -444,7 +444,7 @@ p.error,
 .error-message {
 	clear: both;
 	color: #fff;
-	background: #c43c35;
+	background: #FF5050;
 	border: 1px solid rgba(0, 0, 0, 0.5);
 	background-repeat: repeat-x;
 	background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
@@ -513,13 +513,13 @@ input[type=submit],
 .actions a {
 	font-weight:normal;
 	padding: 4px 8px;
-	background: #dcdcdc;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#dcdcdc));
-	background-image: -webkit-linear-gradient(top, #fefefe, #dcdcdc);
-	background-image: -moz-linear-gradient(top, #fefefe, #dcdcdc);
-	background-image: -ms-linear-gradient(top, #fefefe, #dcdcdc);
-	background-image: -o-linear-gradient(top, #fefefe, #dcdcdc);
-	background-image: linear-gradient(top, #fefefe, #dcdcdc);
+	background: #669999;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#dcdcdc));
+	background-image: -webkit-linear-gradient(top, #0000FF, #dcdcdc);
+	background-image: -moz-linear-gradient(top, #0000FF, #dcdcdc);
+	background-image: -ms-linear-gradient(top, #0000FF, #dcdcdc);
+	background-image: -o-linear-gradient(top, #0000FF, #dcdcdc);
+	background-image: linear-gradient(top, #0000FF, #dcdcdc);
 	color:#333;
 	border:1px solid #bbb;
 	-webkit-border-radius: 4px;
@@ -641,7 +641,7 @@ pre {
 	overflow: auto;
 }
 .cake-context {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .cake-stack-trace pre {
 	color: #000;

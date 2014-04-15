@@ -134,5 +134,15 @@ class PostsController extends AppController {
 
     return parent::isAuthorized($user);
 	}
+	
+	  var $name = 'Posts';
+    function admin_index() {
+        $this->_flash(__('Normal message.', true),'message');
+        $this->_flash(__('Info message.', true),'info');
+        $this->_flash(__('Success message.', true),'success');
+        $this->_flash(__('Warning message.', true),'warning');
+        $this->_flash(__('Error message.', true),'error');
+        $this->set('posts',$this->paginate());
+    }
 }
 ?>

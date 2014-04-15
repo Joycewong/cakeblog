@@ -54,6 +54,9 @@ echo $this->Paginator->counter(
     'Page {:page} of {:pages}, showing {:current} records out of
      {:count} total, starting on record {:start}, ending on {:end}'
 );
+
+echo $this->element('comment_form');
+
 ?>
 <?php
 	echo $this->Html->div(
