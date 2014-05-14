@@ -74,17 +74,17 @@ p {
 
 /** Layout **/
 #container {
-	text-align: left;
+	text-align: center;
 }
 
 #header{
-	padding: 10px 20px;
+	padding: 20px 20px;
 }
 #header h1 {
-	line-height:20px;
-	background: #003d4c url('../img/cake.Logo3.png') no-repeat left;
-	color: #EEEEEE;
-	padding: 0px 30px;
+	line-height:30px;
+	background: #003d4c url('..https://www.facebook.com/pages/Cake-House/384683458311498') no-repeat left;
+	color: #003d4c;
+	padding: 0px 40px;
 }
 #header h1 a {
 	color: #EEEEEE;

@@ -39,7 +39,7 @@ $cakeDescription = __d('cake_dev', 'Welcome To Baker Cake House');
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+			<h1><?php echo $this->Html->link($cakeDescription, 'https://www.facebook.com/pages/Cake-House/384683458311498'); ?></h1>
 		</div>
 		<div id="content">
 			<div class="user">
@@ -66,7 +66,7 @@ $cakeDescription = __d('cake_dev', 'Welcome To Baker Cake House');
 		<div id="footer">
 			<?php echo $this->Html->link(
 					$this->Html->image('Logo3.jpeg', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://www.cakephp.org/',
+					'https://www.facebook.com/pages/Cake-House/384683458311498/',
 					array('target' => '_blank', 'escape' => false)
 				);
 			?>
